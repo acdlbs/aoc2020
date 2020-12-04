@@ -9,5 +9,5 @@
   (length trees)))
 
 (->
- (number-of-trees 3 1)
+ (* (number-of-trees 1 1) (number-of-trees 3 1) (number-of-trees 5 1) (number-of-trees 7 1) (number-of-trees 1 2))
   (print ))
